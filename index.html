@@ -11,10 +11,11 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- start header -->
- <header>
+ <header class="container">
     <div>
         <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
     </div>
@@ -27,12 +28,14 @@
       
 </div> 
 <a href="#">Log in</a>
-<a href="#">Icon</a>
+<a href="#"><i class="fas fa-search fa-2x"></i></a>
+<i class="far fa-user-circle fa-2x"></i>
+
 </header>
 <!-- end header -->
 
 <!-- Start hero -->
-<section id="hero">
+<section id="hero"> class="container".
 <h1>Lets go spacy</h1>
 <h4>ready for a new adventure?</h4>
 <button class="btn-large">Book a trip to Mars</button>
@@ -40,7 +43,7 @@
 <!-- end hero -->
 
 <!-- start cards -->
-<section>
+<section id="card class="container"></section>
 <!-- start card 1 -->
 <div class="card">
     <img src="IMG/daniel-olah-1nUNsmWfcSk-unsplash.jpg" alt="">
@@ -84,13 +87,53 @@ About
 
 <!-- start contact -->
 <section id="contact">
-Contact
+    <h3>Let's Connect</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+
+    <br><br>
+
+    <input type="checkbox" id="terms" checked>
+    <label for="terms">I accept terms and conditions</label>
+    
+    <br><br>
+
+    <label for="date">Starting Date</label>
+    <input type="date" id="date">
+
+    <br><br>
+
+    <label for="document">Add your ID</label>
+    <input type="file" id="document" value="test">
+
+    <br><br>
+
+    <label for="senha">Create a password</label>
+    <input type="password" id="senha">
+
+    <br><br>
+
+    <label for="mobile">Your Phone Number</label>
+    <input type="tel" id="mobile">
+
+    <br><br>
+
+    <input type="submit" value="Send all this info">
+
 </section>
 <!-- end contact-->
 
 <!-- start footer-->
 <footer>
-    Here is the footer. By the End. 
+    <p>follow me</p>
+    <i class="fab fa-behance fa-2x"></i> 
+    <i class="fab fa-instagram fa-2x"></i> 
+    <i class="fab fa-medium fa-2x"></i> 
 </footer>
 <!-- end footer -->
 
